@@ -1,4 +1,4 @@
-package com.example.springboot.common.enumUtis;
+package com.example.springboot.common.enumutis;
 
 import com.example.springboot.common.cache.Result;
 
@@ -44,6 +44,11 @@ public enum ErrorCodeConstants {
     REDIS_LOCK("REDIS_LOCK","lock key can't be null..."),
     REDIS_LOCK_01("REDIS_LOCK_01","请勿重复请求"),
     REDIS_LOCK_02("REDIS_LOCK_02","系统异常 "),
+
+    /***
+     * 策略模式+工厂模式
+     */
+    PATTERN01("PATTERN01","no strategy defined"),
     ;
 
 

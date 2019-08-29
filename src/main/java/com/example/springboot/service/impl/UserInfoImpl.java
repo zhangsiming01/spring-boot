@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 //import com.example.springBoot.redis.RedisUtil;
 //import com.example.springBoot.test.CustomAnnotation;
+import com.example.springboot.service.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
@@ -23,7 +24,6 @@ import com.example.springboot.common.utis.download.ExcelImportUtil;
 import com.example.springboot.common.utis.download.Write;
 import com.example.springboot.dal.mapper.UserInfoMapper;
 import com.example.springboot.dal.model.UserInfo;
-import com.example.springboot.service.UserInfoService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
@@ -31,7 +31,7 @@ import tk.mybatis.mapper.entity.Example;
 
 import com.example.springboot.common.cache.Result;
 import com.example.springboot.common.dto.UserInfoTo;
-import com.example.springboot.common.enumUtis.ErrorCodeConstants;
+import com.example.springboot.common.enumutis.ErrorCodeConstants;
 /**
  * 
 * @author 作者 zhangsiming: 

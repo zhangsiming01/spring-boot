@@ -1,6 +1,6 @@
 package com.example.springboot.aop;
 
-import com.example.springboot.common.enumUtis.ErrorCodeConstants;
+import com.example.springboot.common.enumutis.ErrorCodeConstants;
 import com.example.springboot.common.redis.CacheLock;
 import com.example.springboot.common.utis.StringUtils;
 import com.example.springboot.common.utis.UnifiedException;

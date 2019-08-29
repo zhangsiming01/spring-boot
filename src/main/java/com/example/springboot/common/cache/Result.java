@@ -2,7 +2,7 @@ package com.example.springboot.common.cache;
 
 import java.io.Serializable;
 
-import com.example.springboot.common.enumUtis.ErrorCodeConstants;
+import com.example.springboot.common.enumutis.ErrorCodeConstants;
 /**
  * 
 * @author 作者 zhangsiming: 

@@ -6,7 +6,7 @@ package com.example.springboot.common.utis;
 * 类说明 统一异常处理公共类
  */
 
-import com.example.springboot.common.enumUtis.ErrorCodeConstants;
+import com.example.springboot.common.enumutis.ErrorCodeConstants;
 
 public class UnifiedException extends RuntimeException {
 

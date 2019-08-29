@@ -68,3 +68,7 @@ apache:
       producerGroup: Producer
     # NameServer地址
     namesrvAddr: 127.0.0.1:9876
+
+#是否启动quartz任务扫描器
+quartz:
+  scan: true

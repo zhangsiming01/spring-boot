@@ -1,17 +1,11 @@
 package com.example.springboot.web.controller;
-/**
- * 
-* @author 作者 zhangsiming: 
-* @version 创建时间：2018年10月25日 下午2:09:26 
-* 类说明 用户信息控制器
- */
-
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.example.springboot.service.UserInfoService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +19,6 @@ import org.springframework.web.multipart.MultipartFile;
 import com.example.springboot.common.cache.Result;
 import com.example.springboot.common.dto.UserInfoTo;
 import com.example.springboot.dal.model.UserInfo;
-import com.example.springboot.service.UserInfoService;
 import com.example.springboot.web.vo.UserInfoVo;
 import com.github.pagehelper.PageInfo;
 
@@ -35,6 +28,13 @@ import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import springfox.documentation.annotations.ApiIgnore;
+
+/**
+ *
+ * @author 作者 zhangsiming:
+ * @version 创建时间：2018年10月25日 下午2:09:26
+ * 类说明 用户信息控制器
+ */
 @Api(description = "用户信息管理")
 @RestController
 @RequestMapping("/zsm")

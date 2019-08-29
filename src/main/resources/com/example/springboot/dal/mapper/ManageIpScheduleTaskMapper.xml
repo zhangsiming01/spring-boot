@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springboot.dal.mapper.ManageIpScheduleTaskMapper">
+  <resultMap id="BaseResultMap" type="com.example.springboot.dal.model.ManageIpScheduleTask">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="CHAR" property="id" />
+    <result column="task_code" jdbcType="VARCHAR" property="taskCode" />
+    <result column="task_name" jdbcType="VARCHAR" property="taskName" />
+    <result column="task_conf" jdbcType="VARCHAR" property="taskConf" />
+    <result column="task_class" jdbcType="VARCHAR" property="taskClass" />
+    <result column="task_server_ip" jdbcType="VARCHAR" property="taskServerIp" />
+    <result column="status" jdbcType="CHAR" property="status" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+</mapper>

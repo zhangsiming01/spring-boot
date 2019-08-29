@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.example.springboot.common.enumUtis.ErrorCodeConstants;
+import com.example.springboot.common.enumutis.ErrorCodeConstants;
 import com.example.springboot.common.utis.UnifiedException;
 /**
  * 
