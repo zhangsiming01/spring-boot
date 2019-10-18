@@ -103,7 +103,7 @@ public class ApplicationTests {
         ArrayList<TableHeaderExcelProperty> data = new ArrayList<>();
         for (int i = 1; i <= 20; i++) {
             TableHeaderExcelProperty tableHeaderExcelProperty = new TableHeaderExcelProperty();
-            tableHeaderExcelProperty.setName("java" + i);
+            tableHeaderExcelProperty.setName("000.1154");
             tableHeaderExcelProperty.setAge(i);
             tableHeaderExcelProperty.setSchool("Harvard" + i);
             data.add(tableHeaderExcelProperty);
