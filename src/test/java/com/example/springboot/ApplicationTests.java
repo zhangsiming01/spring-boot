@@ -7,7 +7,6 @@ import com.example.springboot.common.utis.excel.ExcelUtil;
 import com.example.springboot.common.utis.excel.MultipleSheetProperty;
 import com.example.springboot.common.utis.pdf.Doc2HtmlUtil;
 import com.example.springboot.common.utis.pdf.FileToImgUtil;
-import com.example.springboot.common.utis.pdf.PdfDemo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -181,6 +180,6 @@ public class ApplicationTests {
     public void pdfDemo1(){
         String docPath = "D:\\功能模块原型图.docx";
         String pdfPath = "D:\\";
-        PdfDemo.doc2Pdf(docPath,pdfPath);
+//        PdfDemo.doc2Pdf(docPath,pdfPath);
     }
 }

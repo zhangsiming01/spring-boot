@@ -62,11 +62,19 @@
             <version>1.3.2</version>
         </dependency>
         <!-- mysql -->
+<!--        <dependency>-->
+<!--            <groupId>mysql</groupId>-->
+<!--            <artifactId>mysql-connector-java</artifactId>-->
+<!--            <scope>runtime</scope>-->
+<!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
+            <version>8.0.18</version>
         </dependency>
+
+
         <!--&lt;!&ndash; spring boot 内置web容器 &ndash;&gt;-->
         <!--<dependency>-->
         <!--<groupId>org.springframework.boot</groupId>-->
@@ -152,11 +160,14 @@
             <artifactId>easyexcel</artifactId>
             <version>1.1.2-beta5</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.2</version>
+            <version>1.18.10</version>
+            <scope>provided</scope>
         </dependency>
+
 
         <!--工具类-->
         <dependency>
@@ -170,12 +181,8 @@
             <artifactId>jodconverter</artifactId>
             <version>2.2.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.jacob/jacob -->
-        <dependency>
-            <groupId>com.jacob</groupId>
-            <artifactId>jacob</artifactId>
-            <version>1.10</version>
-        </dependency>
+
+
 
         <!-- https://mvnrepository.com/artifact/org.icepdf.os/icepdf-core -->
         <dependency>
@@ -191,10 +198,28 @@
         </dependency>
 
         <!--mongodb-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-data-mongodb</artifactId>-->
+<!--        </dependency>-->
+        <!--发送邮件-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+            <artifactId>spring-boot-starter-mail</artifactId>
         </dependency>
+
+<!--        &lt;!&ndash;Java MAil 发送邮件API&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>javax.mail</groupId>-->
+<!--            <artifactId>javax.mail-api</artifactId>-->
+<!--            <version>1.6.1</version>-->
+<!--        </dependency>-->
+<!--        &lt;!&ndash; 真正的实现库 &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.sun.mail</groupId>-->
+<!--            <artifactId>javax.mail</artifactId>-->
+<!--            <version>1.6.1</version>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
